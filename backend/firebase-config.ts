@@ -4,14 +4,16 @@ import "firebase/firebase-auth";
 import "firebase/storage";
 import "firebase/firestore";
 
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const config = {
-  apiKey: "AIzaSyCoMQYWhg0GrfD8OG49QwxQOOMorYGMvS4",
-  authDomain: "artist-portfolio-9d6b8.firebaseapp.com",
-  projectId: "artist-portfolio-9d6b8",
-  storageBucket: "artist-portfolio-9d6b8.appspot.com",
-  messagingSenderId: "281662124647",
-  appId: "1:281662124647:web:b7e0912ca7f95aebcc1ac2",
-  measurementId: "G-5G7QPCK9E6",
+  apiKey: "AIzaSyAInVOHFIc-BM-jZ2QjeuHfEV30q0_vrfQ",
+  authDomain: "website-2a4c8.firebaseapp.com",
+  projectId: "website-2a4c8",
+  storageBucket: "website-2a4c8.appspot.com",
+  messagingSenderId: "712723569132",
+  appId: "1:712723569132:web:1c2cb08b3a6df39b8288c9",
+  measurementId: "G-PR3Q92Z27H"
 };
 
 var firebaseapp = null;
