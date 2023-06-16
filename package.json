@@ -29,6 +29,8 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write ."
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
   },
   "dependencies": {
     "firebase": "^8.6.8",
